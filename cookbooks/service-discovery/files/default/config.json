@@ -1,0 +1,15 @@
+{
+	"advertise_addr": "10.0.10.10",
+	"bootstrap_expect": 1,
+	"client_addr": "0.0.0.0",
+	"data_dir": "/opt/consul",
+	"datacenter": "development",
+	"log_level": "INFO",
+	"node_name": "consul",
+	"recursors": [
+		"8.8.4.4",
+		"8.8.8.8"
+	],
+	"server": true,
+	"ui_dir": "/var/www"
+}

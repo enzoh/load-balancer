@@ -1,0 +1,27 @@
+{
+	"services": [
+		{
+			"address": "10.0.10.11",
+			"checks": [
+				{
+					"interval": "10s",
+					"script": "curl 10.0.10.11:8000"
+				}
+			],
+			"id": "app1",
+			"name": "app",
+			"port": 8000
+		},{
+			"address": "10.0.10.12",
+			"checks": [
+				{
+					"interval": "10s",
+					"script": "curl 10.0.10.12:8000"
+				}
+			],
+			"id": "app2",
+			"name": "app",
+			"port": 8000
+		}
+	]
+}

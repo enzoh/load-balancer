@@ -1,0 +1,7 @@
+name             "app-server"
+maintainer       "Enzo Haussecker"
+maintainer_email "enzo@mirror.co"
+license          "MIT"
+version          "0.1.0"
+recipe           "app-server::default", "This recipe configures a web server."
+depends          "apt"
